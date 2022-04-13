@@ -2,7 +2,7 @@ package models
 
 type (
 	// PlayerBSON ...
-	PlayerBSON struct {
+	User struct {
 		ID   string `json:"_id"`
 		Name string `json:"name"`
 		Age  int    `json:"age"`

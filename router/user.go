@@ -9,5 +9,5 @@ import (
 func user(e *echo.Echo) {
 	users := e.Group("/users")
 	users.GET("", controller.GetUsers)
-	users.POST("", controller.CreateUser)
+	// users.POST("", controller.CreateUser)
 }
